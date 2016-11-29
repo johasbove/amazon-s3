@@ -1,0 +1,14 @@
+.box
+  .box-header.with-border
+    h3.box-title 
+  .box-body
+    #table
+      table.table.table-hover
+        thead
+          tr
+            th Name
+            th URL
+        tbody
+          tr
+            td = @upload.name
+            td = @upload.url

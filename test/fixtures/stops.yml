@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_ruta: 1
+  nid: MyString
+  latitude: 1.5
+  longitude: 1.5
+  arrives_at: 2016-11-29 10:31:45
+  departs_at: 2016-11-29 10:31:45
+  route_id: 
+
+two:
+  id_ruta: 1
+  nid: MyString
+  latitude: 1.5
+  longitude: 1.5
+  arrives_at: 2016-11-29 10:31:45
+  departs_at: 2016-11-29 10:31:45
+  route_id: 
