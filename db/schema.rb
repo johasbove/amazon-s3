@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 20161129133143) do
     t.time     "depot_at"
     t.integer  "depot"
     t.string   "action"
-    t.integer  "import_id"
     t.integer  "upload_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

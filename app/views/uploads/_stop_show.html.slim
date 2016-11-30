@@ -1,0 +1,24 @@
+.box
+  .box-header.with-border
+    h3.box-title 
+  .box-body
+    #table
+      table.table.table-hover
+        thead
+          tr
+            th ID Ruta
+            th nid
+            th latitude
+            th longitude
+            th arrives_at
+            th departs_at
+        tbody
+          - upload.routes.each do |route|
+            - route.stops.each do |stop|
+              tr
+                td = stop.route_id
+                td = stop.nid
+                td = stop.latitude
+                td = stop.longitude
+                td = stop.arrives_at
+                td = stop.departs_at

@@ -35,8 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'adminlte2-rails'
 gem 'simple_form'
 gem 'slim-rails'
-gem 'rest-client', '~> 2.0'
+gem 'kaminari'
 gem 'roo', '~> 2.5.0'
+gem 'aws-sdk', '~> 2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

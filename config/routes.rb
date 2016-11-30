@@ -56,5 +56,5 @@ Rails.application.routes.draw do
 
   root 'uploads#new'
   resources :uploads
-  post "upload_info", to: "uploads#upload_info"
+  get 'stops' => 'stops#index'
 end

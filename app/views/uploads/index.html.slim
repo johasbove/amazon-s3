@@ -9,8 +9,9 @@
             th Name
             th URL
         tbody
-          tr
-            td = @upload.name
-            td = @upload.url
+          - @uploads.each do |upload|
+            tr
+              td = link_to upload.name, "/uploads/#{upload.id}"
+              td = upload.url
 
-= render partial: 'stop_show', locals: {upload: @upload}
+= paginate @uploads

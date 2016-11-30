@@ -8,13 +8,6 @@ class UploadsController < ApplicationController
   def new
   end
 
-  def upload_info
-    params[:url]
-
-    @upload = Upload.new(upload_params)
-    # @url = 
-  end
-
   def create
     @upload = Upload.process_file(params[:url])
     @url = "/uploads/#{@upload.id}"
